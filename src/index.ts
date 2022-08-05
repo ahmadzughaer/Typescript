@@ -18,3 +18,15 @@ let array3: (string | number)[] = [1,2,3,4,5,"a","b","c"]
 let array4: (string | number | string[])[] = [1,2,3,4,5,"a","b","c", ["a","f"]]
 
 let array5 = [1,2,3,4,5,"a","b","c", ["a","f"], false]
+
+// Type Alias 
+
+type num = number
+type text = string
+type mix = number | string
+let salary:num = 1000
+let message:text = "hello user"
+
+let All:mix = 1000
+All = "text"
+
